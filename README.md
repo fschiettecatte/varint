@@ -1,7 +1,16 @@
 Varint Implementation/Test:
 ===========================
 
-		gcc -g -o varintTest varintTest.c && ./varintTest
+C based implementation of [Varint](http://web.stanford.edu/class/cs276/Jeff-Dean-compression-slides.pdf)
+with performance test:
 
-		gcc -O3 -o varintTest varintTest.c && ./varintTest
 
+Commands:
+---------
+
+```
+gcc -g -o varintTest varintTest.c && ./varintTest
+
+gcc -O3 -o varintTest varintTest.c && ./varintTest
+
+```
